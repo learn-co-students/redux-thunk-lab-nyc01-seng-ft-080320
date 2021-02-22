@@ -4,7 +4,7 @@ function CatList(props) {
 
     const renderCatPics = () => {
         return props.catPics.map(cat => <div key={cat.id}>
-            <img src={cat.url} style={{ width: '300px' }}/>
+            <img src={cat.url} style={{ width: '300px' }} alt='cat pic'/>
         </div>)
     }
 
